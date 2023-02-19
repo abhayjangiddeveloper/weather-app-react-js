@@ -1,0 +1,75 @@
+.Wether-header {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem 2rem;
+    /* margin: 0.5rem 0.5rem; */
+    background-color: rgb(243, 243, 243);
+    background-color: #ffe3b3;
+    /* border-bottom: 1px solid black; */
+}
+
+.input-feild {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73vw;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    /* border: 2px solid green; */
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    width: 70vw;
+}
+
+.month-year-container p {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.full-date-container p {
+    font-size: 1.2rem;
+}
+
+.serachIcon {
+    width: 3rem;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+
+
+@media (min-width:950px) and (max-width:1200px) {
+    .input-feild {
+        gap: 2rem;
+    }
+}
+
+@media (min-width:200px) and (max-width:950px) {
+    .input-feild {
+        gap: 2rem;
+    }
+}
+
+@media (min-width:20px) and (max-width:950px) {
+    .date-container {
+        display: none;
+    }
+}
+
+.contaienr-listDisplay{
+    display: flex;
+    /* border: 2px solid green; */
+    padding: 2rem 7rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    user-select: none;
+}

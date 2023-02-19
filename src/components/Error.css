@@ -1,0 +1,29 @@
+.container-error-page {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.error-image {
+    /* border: 2px solid green; */
+    width: 50rem;
+    object-fit: cover;
+}
+
+.error-warning p {
+    font-size: 3rem;
+    color: #f9a826;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+@media (min-width:150px) and (max-width:600px){
+    .error-image{
+        width: 30rem;
+    }
+}

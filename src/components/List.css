@@ -1,0 +1,33 @@
+.container-list{
+    /* border: 2px solid green; */
+    width: fit-content;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #ffe3b3;
+    padding: 5rem;
+    border-radius: 2rem;
+
+}
+.list-image{
+    width: 5rem;
+}
+
+.heading-list{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(53, 53, 53);
+}
+
+.value-list{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:600px) {
+    .container-list{
+        width: 100%;
+        padding: 2rem;
+    }
+}
