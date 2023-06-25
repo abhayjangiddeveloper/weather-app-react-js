@@ -9,7 +9,7 @@ const Home = () =>{
                     <img src="./image/sunlight.svg" alt="" className="home-image"/>
                 </div>
                 <div className="right">
-                    <h1>Welcome to weather app</h1>
+                    <h1>Welcome to weather apps</h1>
                     <p>Type Your City Name...</p>
                 </div>
             </div>
